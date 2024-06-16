@@ -1,0 +1,52 @@
+body{
+  background-color: pink;
+}
+form{
+  margin: 60px;
+  margin-top: 10px;
+}
+form input{
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+form button{
+  background-color: white;
+  color: blue;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 6px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.par{
+
+  margin: auto;
+  width: 90vw;
+  height: 300px;
+  display: flex;
+  background-color: blueviolet;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+.data{
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.data span{
+  font-size: 26px;
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  cursor: pointer;
+}
